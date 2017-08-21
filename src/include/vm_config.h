@@ -17,47 +17,47 @@
 
 /* maximum number of VMs */
 #ifndef MAX_VM_COUNT
-#define MAX_VM_COUNT 5
+#define MAX_VM_COUNT 2
 #endif
 
 /* maximum size of registers */
 #ifndef MAX_REGS_SIZE
-#define MAX_REGS_SIZE 100
+#define MAX_REGS_SIZE 20
 #endif
 
 /* maximum size of callinfo (callstack) */
 #ifndef MAX_CALLINFO_SIZE
-#define MAX_CALLINFO_SIZE 100
+#define MAX_CALLINFO_SIZE 20
 #endif
 
 /* maximum number of objects */
 #ifndef MAX_OBJECT_COUNT
-#define MAX_OBJECT_COUNT 400
+#define MAX_OBJECT_COUNT 80
 #endif
 
 /* maximum number of classes */
 #ifndef MAX_CLASS_COUNT
-#define MAX_CLASS_COUNT 20
+#define MAX_CLASS_COUNT 4
 #endif
 
 /* maximum size of symbol table */
 #ifndef MAX_SYMBOLS_SIZE
-#define MAX_SYMBOLS_SIZE 400
+#define MAX_SYMBOLS_SIZE 80
 #endif
 
 /* maximum number of symbols */
 #ifndef MAX_SYMBOLS_COUNT
-#define MAX_SYMBOLS_COUNT 200
+#define MAX_SYMBOLS_COUNT 50
 #endif
 
 /* maximum size of global objects */
 #ifndef MAX_GLOBAL_OBJECT_SIZE
-#define MAX_GLOBAL_OBJECT_SIZE 20
+#define MAX_GLOBAL_OBJECT_SIZE 4
 #endif
 
 /* maximum size of consts */
 #ifndef MAX_CONST_COUNT
-#define MAX_CONST_COUNT 20
+#define MAX_CONST_COUNT 4
 #endif
 
 
